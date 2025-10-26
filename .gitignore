@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# archives / logs / temp
+*.zip
+*.tar.gz
+*.log
+tmp/
+~$*
+
+# secrets (keep empty locally; never commit real secrets)
+secrets/
+*.pem
+*.key
+*.crt
+*.pfx
+
+# tool outputs
+*.bak
+*.cfg.bak
