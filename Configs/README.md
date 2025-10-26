@@ -9,8 +9,8 @@ A documented homelab for learning and experiments: Proxmox virtualization, VLAN 
 - Storage / SFP+ modules / cabling …
 
 ## 🌐 Network Overview
-- VLAN 50 “Homelab”: `192.168.50.0/24`
-- Gateway: `192.168.50.1` (example)
+- VLAN “Homelab”: <LAB_VLAN>
+- Gateway: <GATEWAY_IP> 
 - Services: Proxmox web, iDRAC mgmt
 - See detailed notes in [`Docs/network.md`](Docs/network.md)
 

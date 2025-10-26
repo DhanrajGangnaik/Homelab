@@ -1,8 +1,9 @@
 # Network Design
+
 ## Addressing
-- VLAN 50: 192.168.50.0/24
-- Gateway: 192.168.50.1
-- DHCP scope: 192.168.50.100–200 (example)
+- VLAN 50: `<PRIVATE_SUBNET>/24` (example: 192.168.X.X/24)
+- Gateway: `<GATEWAY_IP>`
+- DHCP scope: `<DHCP_RANGE>` (e.g., 192.168.X.100–200)
 
 ## Switching & Trunks
 - Uplink: UDM Pro SFP+ <-> Catalyst SFP+
@@ -14,5 +15,5 @@
 - Block IoT -> Homelab (future)
 
 ## Notes
-- mgmt IPs (obfuscated)
+- mgmt IPs (obfuscated with `<MGMT_IP>`)
 - backup/restore commands
